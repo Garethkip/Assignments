@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>REGISTRATION</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <h1 style="color:purple">REGISTRATION PAGE</h1>
+        <div id="home"><a href="index.html" style="text-decoration: none;">Home</a></div>
+        <div id="login"><a href="login.html" style="text-decoration: none" ;>login</a></div>
+    </header>
+    <main>
+        <form action="/sucess.html">
+            <div>
+                <input name="First" placeholder="First Name" type="text" required>
+                <input name="Second" placeholder="Second Name" type="text" required>
+            </div>
+            <div>
+                <input name="Phone" placeholder="0712345678" type="number" required>
+                <input name="Email" placeholder="Name@gmail.com" type="email" required>
+            </div>
+            <div>
+                <span>Select your Gender:</span>
+                <label><input type="radio" id="Gender" name="Gender">Male</label>
+                <label><input type="radio" id="gender" name="Gender">Female</label>
+                <label><input type="radio" id="Gender1"  name="Gender">Prefer not to say</label>
+
+
+            </div>
+            <div>
+                <span>Select date of birth: </span>
+                <input type="date" id="date" required>
+            </div>
+            <div>
+                <span>Select favorite color: </span>
+                <input type="color" id="color" required>
+            </div>
+            <div>
+                <input type="submit" id="submit">
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
