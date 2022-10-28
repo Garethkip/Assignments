@@ -1,0 +1,44 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vh;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 33%);
+    background-color: black;
+    padding: auto;
+}
+
+#one {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+#two {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+#three {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+#four {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+#five {
+    grid-column: span 2;
+    grid-row: span 1;
+}
